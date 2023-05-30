@@ -56,12 +56,15 @@ h1, h2 {
 
 #contact-card .bg-white {
     border: 2px solid black;
-    height: 25vh;
+    width: 500px;
+    height: 250px;
 }
 
 #contact-card .pic-name {
     width: 45%;
     float: left;
+    min-height: fit-content;
+    word-wrap: break-word;
 }
 
 #contact-card .contact-info {
@@ -70,6 +73,7 @@ h1, h2 {
     padding-left: 30px;
     padding-top: 20px;
     word-wrap: break-word;
+    min-height: fit-content;
 }
 
 #contact-card h1 {
