@@ -1,0 +1,46 @@
+body {
+    background: #DDE6ED;
+}
+
+h1, h2 {
+    font-family: serif;
+}
+
+#header {
+    background-color: #27374D;
+}
+
+#header a {
+    color: white;
+}
+
+#header a:active {
+    background-color: rgb(149, 149, 149);
+}
+
+.nav-pills .nav-link.active {
+    background-color: #526D82;
+}
+
+#hero img {
+    border-radius: 15px;
+}
+
+.contain-container #feature-row{
+    text-align: center;
+}
+
+#contact-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    height: 75vh;
+}
+
+#features img {
+    border-radius: 100px;
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+}
