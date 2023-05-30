@@ -6,6 +6,8 @@ h1, h2 {
     font-family: serif;
 }
 
+/* Header and Navbar */
+
 #header {
     background-color: #27374D;
 }
@@ -22,20 +24,16 @@ h1, h2 {
     background-color: #526D82;
 }
 
+/* Hero */
+
 #hero img {
     border-radius: 15px;
 }
 
+/* Features Section */
+
 .contain-container #feature-row{
     text-align: center;
-}
-
-#contact-card {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: auto;
-    height: 75vh;
 }
 
 #features img {
@@ -44,3 +42,37 @@ h1, h2 {
     width: 200px;
     object-fit: cover;
 }
+
+/* Contact Page Contact Card */
+
+#contact-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    height: 75vh;
+    flex: 1;
+}
+
+#contact-card .bg-white {
+    border: 2px solid black;
+    height: 35%;
+}
+
+#contact-card .pic-name {
+    width: 45%;
+    float: left;
+}
+
+#contact-card .contact-info {
+    width: 50%;
+    float: right;
+    padding-left: 30px;
+    padding-top: 20px;
+}
+
+#contact-card h1 {
+    font-size:larger;
+}
+
+/* Footer */
